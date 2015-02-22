@@ -77,7 +77,8 @@ public class LoginActivity extends PlusBaseActivity implements LoaderCallbacks<C
             mPlusSignInButton.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    signIn();
+                    //signIn();
+
                 }
             });
         } else {
