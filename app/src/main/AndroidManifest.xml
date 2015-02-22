@@ -34,8 +34,8 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".SearchScreen"
-            android:label="@string/title_activity_search_screen" >
+            android:name=".ListAndSearchActivity"
+            android:label="ListAndSearchActivity" >
         </activity>
     </application>
 
