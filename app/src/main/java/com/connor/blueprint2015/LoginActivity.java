@@ -79,8 +79,8 @@ public class LoginActivity extends PlusBaseActivity implements LoaderCallbacks<C
                 @Override
                 public void onClick(View view) {
                     //signIn();
-                    Intent searchScreenIntent = new Intent(LoginActivity.this, SearchScreen.class);
-                    startActivity(searchScreenIntent);
+                    Intent listAndSearchIntent = new Intent(LoginActivity.this, ListAndSearchActivity.class);
+                    startActivity(listAndSearchIntent);
                 }
             });
         } else {
